@@ -1,0 +1,21 @@
+.hero {
+  background-image: url('https://mspmag.com/downloads/47735/download/CyberMonday2019-7664.jpg?cb=f1f22258a831995fe7f4cf9ee6355fe0&w=1280&h=');
+  background-color: #777;
+  background-blend-mode: multiply;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 400%;
+  text-shadow: 2px 2px 5px black;
+}
+
+.hero h3 {
+  text-shadow: 2px 2px 5px black;
+}

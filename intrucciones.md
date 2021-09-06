@@ -30,7 +30,17 @@
    - Crear el servicio el metodo GETALL y pintarlos en PRODUCTLIST, llamando a las peticiones de nuestro back. "IMPORTANTE EL BACK TIENE QUE ESTAR LEVANTADO"
 
 
+### Segunda Tarea
 
+  - Crear un component header con un menu de navegación y un logo, el menu tendrá las siguientes opciones home, productos, login, registro, cada una tendrá una ruta especifica definida en routing.
+
+  - home: Cargará un hero con un boton calltoaction a productos.
+
+  - error404 cargará una imagen con el error 404.
+
+  - productList: Cargará la lista de productos con una maquetación visual en bootstrap.
+
+  
 
 
     

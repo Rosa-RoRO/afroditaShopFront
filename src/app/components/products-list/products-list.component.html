@@ -1,1 +1,7 @@
-<p>products-list works!</p>
+<section class="container mt-5">
+  <div class="row g-4">
+    <article class="col-12 col-md-6 col-lg-4" *ngFor="let product of arrProducts">
+      <app-card-product [product]="product"></app-card-product>
+    </article>
+  </div>
+</section>

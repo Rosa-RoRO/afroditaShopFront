@@ -1,0 +1,11 @@
+.errorPage img {
+  width: 100%;
+  height: auto;
+  display: block;
+  cursor: pointer;
+}
+
+.errorPage {
+  width: 60%;
+  margin: 0 auto;
+}

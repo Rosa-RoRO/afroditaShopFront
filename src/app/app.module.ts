@@ -14,6 +14,8 @@ import { RegisterComponent } from './components/register/register.component';
 import { ProductsListComponent } from './components/products-list/products-list.component';
 import { DetailProductComponent } from './components/detail-product/detail-product.component';
 import { Error404Component } from './components/error404/error404.component';
+import { HeaderComponent } from './components/header/header.component';
+import { CardProductComponent } from './components/card-product/card-product.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { Error404Component } from './components/error404/error404.component';
     RegisterComponent,
     ProductsListComponent,
     DetailProductComponent,
-    Error404Component
+    Error404Component,
+    HeaderComponent,
+    CardProductComponent
   ],
   imports: [
     BrowserModule,
