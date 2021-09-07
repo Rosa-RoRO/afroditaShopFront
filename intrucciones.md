@@ -46,6 +46,9 @@
 
     - Crear el formulario de registro de usuario, servicio de usuarios, interfaz de usuario, y form de tipo model con validaciones.
 
+    - form login, hacer login.
+    
+
     
 
 
