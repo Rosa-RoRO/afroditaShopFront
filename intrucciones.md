@@ -41,13 +41,18 @@
   - productList: Cargará la lista de productos con una maquetación visual en bootstrap.
 
   
+
   ### Tercera Tarea.
+
     - Crear la vista de detalle, pintando los datos de cada producto, podeis usar la misma card, poniendola al 100%
 
     - Crear el formulario de registro de usuario, servicio de usuarios, interfaz de usuario, y form de tipo model con validaciones.
 
     - form login, hacer login.
     
+    - Profile: crear --> componente, ruta y servicio. 
+      Crear un guard para proteger dicha ruta (que no me deje entrar si no estoy logueado --> token);
+
 
     
 
