@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 //librerias
 import { HttpClientModule } from '@angular/common/http'
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 //componentes
@@ -32,7 +33,8 @@ import { CardProductComponent } from './components/card-product/card-product.com
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

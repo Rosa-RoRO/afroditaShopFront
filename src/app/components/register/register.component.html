@@ -1,1 +1,32 @@
-<p>register works!</p>
+<div class="container mt-3">
+  <h2>Registro</h2>
+  <form [formGroup]="formulario" (ngSubmit)="onSubmit()">
+    <div class="my-2">
+      <label for='username'>Username</label>
+      <input type="text" class="form-control" formControlName="username">
+      <p class="text-danger" *ngIf="checkControl('username', 'minlength')">El nombre debe tener una longitud mínima de 4
+        caracteres</p>
+    </div>
+    <div class="my-2">
+      <label for="email">Email</label>
+      <input type="text" class="form-control" formControlName="email">
+      <p class="text-danger" *ngIf="checkControl('email', 'required')">Email es requerido</p>
+      <p class="text-danger" *ngIf="checkControl('email', 'pattern')">Por favor, introduzca un email con un formato
+        válido</p>
+    </div>
+    <div class="my-2">
+      <label for="password">Password</label>
+      <input type="password" class="form-control" formControlName="password">
+      <p class="text-danger" *ngIf="checkControl('password', 'required')">La contraseña es un campo obligatorio</p>
+
+      <p class="text-danger" *ngIf="checkControl('password', 'minlength')">La contraseña debe tener minimo 8 caracteres
+      </p>
+    </div>
+    <div>
+      <label for="repite_password">Repita la contraseña</label>
+      <input class="form-control" type="password" id="repite_password" formControlName="repite_password">
+      <p class="text-danger" *ngIf="formulario.hasError('validadorPassword')">Las contraseñas no son iguales</p>
+    </div>
+    <input type="submit" value="Enviar" class="btn btn-danger mt-3" [disabled]="!formulario.valid">
+  </form>
+</div>
